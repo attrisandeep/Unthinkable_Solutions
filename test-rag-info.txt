@@ -1,0 +1,22 @@
+RAG stands for Retrieval-Augmented Generation.
+
+RAG is an AI technique that combines information retrieval with text generation.
+
+How RAG works:
+1. A user asks a question
+2. The system searches through documents to find relevant information
+3. Retrieved information is sent to a language model
+4. The language model generates an answer based on the retrieved information
+
+Benefits of RAG:
+- Reduces hallucinations by grounding responses in actual documents
+- Provides source citations for transparency
+- Can work with up-to-date information without retraining
+- More accurate than pure language models alone
+
+KnowledgeExplorer is a RAG system that uses:
+- FastAPI for the backend
+- React for the frontend  
+- Pinecone for vector storage
+- Groq LLM for answer generation
+- Jina AI for creating embeddings

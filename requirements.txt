@@ -1,0 +1,37 @@
+# KnowledgeExplorer Backend Dependencies
+# Install with: pip install -r requirements.txt
+
+# FastAPI & Web Server
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+
+# Configuration & Environment
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# LangChain & Document Processing
+langchain>=0.1.0
+langchain-community>=0.0.16
+pypdf>=4.0.0
+
+# Embeddings
+# Note: Jina AI is accessed via REST API (httpx), not the Python SDK
+sentence-transformers>=2.3.0
+
+# Vector Store (renamed from pinecone-client to pinecone)
+pinecone>=7.0.0
+
+# LLM & HTTP
+groq>=0.4.0
+httpx>=0.26.0
+requests>=2.31.0
+
+# Utilities
+tenacity>=8.2.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.23.0
+pytest-mock>=3.12.0
