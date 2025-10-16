@@ -32,6 +32,8 @@ env/
 .env
 .env.local
 .env.*.local
+backend/.env
+frontend/.env
 
 # Logs
 logs
@@ -44,14 +46,18 @@ lerna-debug.log*
 
 # Node modules
 node_modules
+frontend/node_modules
 
 # Build outputs
 dist
 dist-ssr
 *.local
+frontend/dist
+backend/dist
 
 # Uploaded files - user documents should not be committed
 uploads/
+backend/uploads/
 *.pdf
 !test-rag-info.txt
 
@@ -73,3 +79,7 @@ htmlcov/
 
 # OS
 Thumbs.db
+
+# Temporary reorganization files
+README_NEW.md
+reorganize.ps1
