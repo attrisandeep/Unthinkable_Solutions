@@ -77,6 +77,10 @@ backend/uploads/
 .coverage
 htmlcov/
 
+# Uploads - User uploaded documents
+backend/uploads/
+uploads/
+
 # OS
 Thumbs.db
 
