@@ -347,9 +347,3 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file.
 
 ---
 
-**⭐ Star this repo if you find it helpful!**
-
-**Built with ❤️ for intelligent document interaction**
-
-DEMO VIDEO : https://drive.google.com/file/d/1rhl-D-lW2m4cNzQcsOfsJS7JNCu_RLKx/view?usp=sharing
-
