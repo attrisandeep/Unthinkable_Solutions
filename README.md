@@ -55,7 +55,7 @@ A production-ready Retrieval-Augmented Generation (RAG) system with smart docume
 
 - Python 3.14+
 - Node.js 18+
-- API Keys (see [Setup](#setup))
+- API Keys
 
 ### Installation
 
