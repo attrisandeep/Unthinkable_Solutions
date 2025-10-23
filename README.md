@@ -221,13 +221,9 @@ Unthinkable_Solutions/
 │   ├── public/                # Static assets
 │   └── package.json           # Node dependencies
 │
-├── docs/                       # Documentation
-│   ├── SMART_RAG_GUIDE.md     # Usage guide
-│   ├── RAG_IMPROVEMENTS.md    # Technical details
-│   └── API.md                 # API documentation
-│
-├── scripts/                    # Utility scripts
-│   ├── start-backend.bat      # Windows backend launcher
+├── .gitignore                  # Git ignore rules
+├── LICENSE                     # MIT License
+└── README.md                   # Project documentation
 │   └── start-frontend.bat     # Windows frontend launcher
 │
 ├── .gitignore                 # Git ignore rules
@@ -307,14 +303,6 @@ black --check .
 **3. "Mixed document information"**
 - Use document management API to clear old files
 - Upload only relevant documents together
-
-See [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) for more.
-
-## 📚 Documentation
-
-- [SMART_RAG_GUIDE.md](docs/SMART_RAG_GUIDE.md) - Complete usage guide
-- [RAG_IMPROVEMENTS.md](docs/RAG_IMPROVEMENTS.md) - Technical improvements
-- [API.md](docs/API.md) - Full API reference
 
 ## 🤝 Contributing
 
